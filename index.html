@@ -1,0 +1,808 @@
+<!DOCTYPE html><!--  Last Published: Wed Jul 24 2024 10:11:06 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="669f9140248f05280afd0b85" data-wf-site="669f9140248f05280afd0b78">
+<head>
+  <meta charset="utf-8">
+  <title>Matchday Pro - The all-in-one app for live football updates, stats, a trading game, and more!</title>
+  <meta content="Enhance your football experience with Matchday PRO, the ultimate app for live updates, real-time stats, a thrilling trading game, and a whole lot more. Stay connected to your favorite teams, players, and matches like never before." name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/matchdaypro.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Fjalla One:regular","Work Sans:300,regular,500,600,700"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon"><!--  Website created by Shoreditch Design www.shoreditchdesign.com  -->
+  <script type="text/javascript">
+  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    const msViewportStyle = document.createElement('style');
+    msViewportStyle.appendChild(
+      document.createTextNode(
+        '@-ms-viewport{width:auto!important}'
+      )
+    )
+    document.querySelector('head').appendChild(msViewportStyle)
+  }
+  function scrollToDownloadSection() {
+    const targetDiv = document.getElementById('downloadLinks');
+    targetDiv.scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
+</head>
+<body class="body">
+  <div class="page">
+    <a aria-label="skip to main content" href="#main" class="o-skip-link w-inline-block"></a>
+    <header class="c-navbar">
+      <a href="#" class="c-navbar_logo w-inline-block"><img src="images/Navbar-Logo.png" loading="lazy" alt=""></a>
+      <ul role="list" class="nav-menu w-list-unstyled">
+        <li>
+          <a href="#">FEATURES</a>
+        </li>
+        <li>
+          <a href="about.html">ABOUT</a>
+        </li>
+        <li>
+          <a href="partnerships.html">PARTNERSHIPS</a>
+        </li>
+        <li>
+          <a href="contact-us.html">CONTACT US</a>
+        </li>
+        <li>
+          <a href="#" class="c-button w-inline-block">
+            <div class="c-button_label">DOWNLOAD APP</div>
+          </a>
+        </li>
+      </ul>
+    </header>
+    <div class="global-styles">
+      <div class="js w-embed w-script">
+        <script type="text/javascript">
+  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    const msViewportStyle = document.createElement('style');
+    msViewportStyle.appendChild(
+      document.createTextNode(
+        '@-ms-viewport{width:auto!important}'
+      )
+    )
+    document.querySelector('head').appendChild(msViewportStyle)
+  }
+  function scrollToDownloadSection() {
+    const targetDiv = document.getElementById('downloadLinks');
+    targetDiv.scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
+      </div>
+      <div class="css w-embed">
+        <style>
+/* normalize fonts */
+body {
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* remove blue highlight on mobile tap */
+* {
+	-webkit-tap-highlight-color: transparent;
+  }
+/* setup */
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  vertical-align: middle;
+}
+img,
+video {
+  height: auto;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.w-richtext :first-child {margin-top: 0}
+.w-richtext :last-child {margin-bottom: 0}
+/* utilities */
+[hide], .css, .js {
+	display: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+</style>
+      </div>
+      <div class="keyframes w-embed">
+        <style>
+@keyframes a-slide-y {
+  from {opacity: 0; transform: translateY(5%);}
+  to {opacity: 1; transform: translateY(0%);}
+}
+@keyframes a-slide-x {
+  from {opacity: 0; transform: translateX(-50%);}
+  to {opacity: 1; transform: translateX(0%);}
+}
+@keyframes a-scale {
+  from {opacity: 0; transform: scale(0.5);}
+  to {opacity: 1; transform: scale(1);}
+}
+@keyframes a-fade-in {
+  from {opacity: 0; transform: scale(0.95);}
+  to {opacity: 1; transform: scale(1);}
+}
+@keyframes a-spin {
+  to {transform: rotate(360deg);}
+}
+@keyframes a-ticker {
+  to {transform: translateX(-100%);}
+}
+</style>
+      </div>
+    </div>
+    <div class="css w-embed">
+      <style>
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /* Core styles/functionality */
+  .tab input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  .tab_content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.35s;
+  }
+  .tab input:checked ~ .tab_content {
+    max-height: 14rem;
+  }
+  /* Visual styles */
+  .accordion {
+    color: var(--theme);
+    border: 2px solid;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .tab_label,
+  .tab_close {
+    display: flex;
+    color: #000;
+    background: #f0f0f0;
+    cursor: pointer;
+  }
+  .tab_label {
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .tab_label::after {
+    content: "+";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+  }
+  .tab input:checked + .tab_label {
+    content: "Read less";
+  }
+  .tab input:checked + .tab_label::after {
+    content: "-";
+  }
+  .tab_content p {
+    margin: 0;
+    padding: 1rem;
+  }
+  .tab_close {
+    justify-content: flex-end;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+  }
+  .accordion--radio {
+    --theme: var(--secondary);
+  }
+</style>
+    </div>
+    <div class="js w-embed w-script">
+      <script>
+</script>
+    </div>
+    <main id="main" class="w-layout-vflex main">
+      <section class="w-layout-vflex section is-hero">
+        <div class="w-layout-vflex container-lg py-md">
+          <div class="w-layout-vflex s-hm1_inner">
+            <div class="w-layout-vflex s-hm1_title-wrap">
+              <div class="w-layout-vflex u-z-index-1">
+                <h1>MATCHDAY PRO</h1>
+              </div>
+              <h3>THE GAME WILL NEVER BE THE SAME</h3>
+              <div class="s-hm1_inline-img is-1"><img src="images/home_hero_title-inline-2.webp" loading="lazy" sizes="(max-width: 767px) 60px, (max-width: 991px) 14vw, 140px" srcset="images/home_hero_title-inline-2-p-500.webp 500w, images/home_hero_title-inline-2.webp 528w" alt=""></div>
+              <div class="s-hm1_inline-img is-2"><img src="images/home_hero_title-inline-1.webp" loading="lazy" sizes="(max-width: 767px) 60px, (max-width: 991px) 14vw, 140px" srcset="images/home_hero_title-inline-1-p-500.webp 500w, images/home_hero_title-inline-1.webp 556w" alt=""></div>
+            </div>
+          </div>
+        </div><img src="images/home_hero_image-dt.webp" loading="lazy" sizes="100vw" srcset="images/home_hero_image-dt-p-500.webp 500w, images/home_hero_image-dt-p-800.webp 800w, images/home_hero_image-dt-p-1080.webp 1080w, images/home_hero_image-dt-p-1600.webp 1600w, images/home_hero_image-dt-p-2000.webp 2000w, images/home_hero_image-dt-p-2600.webp 2600w, images/home_hero_image-dt-p-3200.webp 3200w, images/home_hero_image-dt.webp 4320w" alt="" class="s-hm1_bg-img is-dt"><img src="images/home_hero-img-mb.webp" loading="lazy" sizes="100vw" srcset="images/home_hero-img-mb-p-500.webp 500w, images/home_hero-img-mb-p-800.webp 800w, images/home_hero-img-mb-p-1080.webp 1080w, images/home_hero-img-mb.webp 1125w" alt="" class="s-hm1_bg-img is-mb">
+      </section>
+      <section class="w-layout-vflex section is-dark">
+        <div class="s-hm2_ticker-wrap">
+          <div class="s-hm2_ticker-row">
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+          </div>
+          <div class="s-hm2_ticker-row is-reverse">
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+          </div>
+          <div class="s-hm2_ticker-row">
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+          </div>
+          <div class="s-hm2_ticker-row is-reverse">
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+            <div>CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING CHALLENGE FRIENDS EXPERIENCE THE THRILL  REACTIVE GAMEPLAY DEEP DIVE INTO STATISTICS PLAYER TRADING </div>
+          </div>
+        </div>
+        <div class="w-layout-vflex container-lg py-96">
+          <div class="w-layout-vflex s-hm2_inner gap-64">
+            <div class="s-hm2_img-wrap"><img src="images/home_app-store_img.webp" loading="lazy" sizes="(max-width: 479px) 100vw, 50vw" srcset="images/home_app-store_img-p-500.webp 500w, images/home_app-store_img-p-800.webp 800w, images/home_app-store_img-p-1080.webp 1080w, images/home_app-store_img-p-1600.webp 1600w, images/home_app-store_img-p-2000.webp 2000w, images/home_app-store_img.webp 2181w" alt=""></div>
+            <div class="w-layout-vflex s-hm2_text-wrap gap-32">
+              <div class="w-layout-vflex u-text-center">
+                <h2>The ultimate app designed specifically for football lovers</h2>
+              </div>
+              <div class="w-layout-vflex u-text-center">
+                <div class="text-md is-dark">Are you a true football enthusiast? Are you seeking a comprehensive and interactive platform to deepen your engagement with the beautiful game? Look no further than Matchday Pro.<br><br>We bring the excitement of live matches, news updates, player analysis, and social interaction all into one immersive experience that will revolutionise the way you perceive the game.</div>
+              </div>
+              <div class="w-layout-hflex o-download_btn-wrap gap-8">
+                <a href="https://apps.apple.com/nl/app/matchday-pro/id6459884753" class="o-download_btn w-inline-block"><img src="images/home_ios-banner.png" loading="lazy" alt="" class="o-download_btn-img"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.matchdaypro.app" class="o-download_btn w-inline-block"><img src="images/home_playstore-banner.png" loading="lazy" alt="" class="o-download_btn-img"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="w-layout-vflex section">
+        <div class="w-layout-vflex container-lg py-128">
+          <div class="w-layout-vflex s-hm3_inner">
+            <div class="w-layout-vflex s-hm3_text-wrap gap-32">
+              <div class="w-layout-vflex u-text-center">
+                <h2>Welcome to Matchday Pro</h2>
+              </div>
+              <div class="w-layout-vflex u-text-center">
+                <div class="text-md">Matchday Pro was born from the love of the beautiful game and a desire to bring fans closer to the heart of the action. We aim to offer a comprehensive, interactive platform where football enthusiasts can stay updated, engaged, and immersed in the world of football.<br><br>We understand that football is more than just a game—it’s a lifestyle, a community, and for many, a lifelong passion. That’s why we’ve created an app that not only delivers real-time news, statistics, and analysis from the top leagues, clubs, and players around the world, but also brings a thrilling football player-trading game that syncs with live matches.</div>
+              </div>
+              <div class="w-layout-vflex l-btn-wrap">
+                <a href="about.html" class="c-button w-inline-block">
+                  <div class="c-button_label">Learn more</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="w-layout-vflex section is-fw">
+        <div class="w-layout-vflex container-fw">
+          <div class="w-layout-vflex s-hm4_inner">
+            <div class="s-hm4_img-wrap"><img src="images/home_intro_img.webp" loading="lazy" sizes="100vw" srcset="images/home_intro_img-p-500.webp 500w, images/home_intro_img-p-800.webp 800w, images/home_intro_img-p-1080.webp 1080w, images/home_intro_img-p-1600.webp 1600w, images/home_intro_img-p-2000.webp 2000w, images/home_intro_img-p-2600.webp 2600w, images/home_intro_img-p-3200.webp 3200w, images/home_intro_img.webp 4320w" alt=""></div>
+          </div>
+        </div>
+      </section>
+      <section class="w-layout-vflex section is-dark">
+        <div class="w-layout-vflex container-lg py-128">
+          <div class="w-layout-vflex s-hm5_inner gap-64">
+            <div class="w-layout-vflex u-text-center">
+              <h2>Feel the best experience with our features</h2>
+            </div>
+            <div class="s-hm5_grid">
+              <div id="w-node-_87db3840-c8e7-c630-5bf3-d31804ec6dc4-0afd0b85" class="w-layout-vflex s-hm5_card">
+                <div class="w-layout-vflex s-hm5_content-wrap gap-24">
+                  <div class="icon-embed-custom w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 58 58" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                      <circle cx="29" cy="29" r="29" fill="#A164CE"></circle>
+                      <g clip-path="url(#clip0_4474_34836)">
+                        <path d="M17 27H37V25H17V27ZM28 39H35V37H28V39ZM28 35H37V33H28V35ZM28 31H37V29H28V31ZM17 39H26V29H17V39ZM41 23V19H13V41C13 41 13 45 17 45H42C42 45 45 44.938 45 41V23H41ZM17 43C15 43 15 41 15 41V21H39V41C39 41.921 39.284 42.558 39.676 43H17Z" fill="white"></path>
+                      </g>
+                      <defs>
+                        <clippath id="clip0_4474_34836">
+                          <rect width="32" height="32" fill="white" transform="translate(13 13)"></rect>
+                        </clippath>
+                      </defs>
+                    </svg></div>
+                  <div class="w-layout-vflex s-hm5_text-wrap gap-8">
+                    <h3>Stay informed</h3>
+                    <div class="text-md is-dark">Matchday Pro ensures you never miss a beat in the world of football. Our app curates news and updates from your favourite sources. Get real-time notifications on match previews, team line-ups, transfers, injuries, and all the information you need to stay ahead of the game.</div>
+                  </div>
+                </div>
+                <div class="s-hm5_img-wrap"><img src="images/home_bento_img-1.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 434.04296875px, 47vw" srcset="images/home_bento_img-1-p-500.webp 500w, images/home_bento_img-1-p-800.webp 800w, images/home_bento_img-1-p-1080.webp 1080w, images/home_bento_img-1.webp 1260w" alt="" class="s-hm5_img"></div>
+              </div>
+              <div id="w-node-_34d3924c-3428-1f99-c87a-a683158d2ca1-0afd0b85" class="w-layout-vflex s-hm5_card">
+                <div class="w-layout-vflex s-hm5_content-wrap gap-24">
+                  <div class="icon-embed-custom w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 58 58" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                      <circle cx="29" cy="29" r="29" fill="#A164CE"></circle>
+                      <path d="M22.3333 32H17C16.4477 32 16 32.4477 16 33V39.6667C16 40.219 16.4477 40.6667 17 40.6667H22.3333C22.8856 40.6667 23.3333 40.219 23.3333 39.6667V33C23.3333 32.4477 22.8856 32 22.3333 32Z" fill="white"></path>
+                      <path d="M31.6615 28H26.3281C25.7758 28 25.3281 28.4477 25.3281 29V39.6667C25.3281 40.219 25.7758 40.6667 26.3281 40.6667H31.6615C32.2137 40.6667 32.6615 40.219 32.6615 39.6667V29C32.6615 28.4477 32.2137 28 31.6615 28Z" fill="white"></path>
+                      <path d="M40.9974 22.668H35.6641C35.1118 22.668 34.6641 23.1157 34.6641 23.668V39.668C34.6641 40.2203 35.1118 40.668 35.6641 40.668H40.9974C41.5497 40.668 41.9974 40.2203 41.9974 39.668V23.668C41.9974 23.1157 41.5497 22.668 40.9974 22.668Z" fill="white"></path>
+                      <path d="M42.3307 43.3359H15.6641C15.3988 43.3359 15.1445 43.2306 14.957 43.043C14.7694 42.8555 14.6641 42.6012 14.6641 42.3359C14.6641 42.0707 14.7694 41.8164 14.957 41.6288C15.1445 41.4413 15.3988 41.3359 15.6641 41.3359H42.3307C42.5959 41.3359 42.8503 41.4413 43.0378 41.6288C43.2254 41.8164 43.3307 42.0707 43.3307 42.3359C43.3307 42.6012 43.2254 42.8555 43.0378 43.043C42.8503 43.2306 42.5959 43.3359 42.3307 43.3359Z" fill="white"></path>
+                      <path d="M38.3281 20.668C38.064 20.6645 37.8116 20.5581 37.6248 20.3713C37.438 20.1845 37.3316 19.9321 37.3281 19.668V16.668H34.3281C34.0629 16.668 33.8086 16.5626 33.621 16.3751C33.4335 16.1875 33.3281 15.9332 33.3281 15.668C33.3281 15.4028 33.4335 15.1484 33.621 14.9609C33.8086 14.7733 34.0629 14.668 34.3281 14.668H38.3281C38.5923 14.6714 38.8446 14.7779 39.0314 14.9647C39.2182 15.1515 39.3247 15.4038 39.3281 15.668V19.668C39.3247 19.9321 39.2182 20.1845 39.0314 20.3713C38.8446 20.5581 38.5923 20.6645 38.3281 20.668Z" fill="white"></path>
+                      <path d="M19.6623 27.3345C19.4556 27.3358 19.2536 27.2729 19.084 27.1546C18.9145 27.0363 18.7858 26.8684 18.7156 26.674C18.6455 26.4796 18.6373 26.2682 18.6922 26.0689C18.7471 25.8696 18.8624 25.6922 19.0223 25.5612L27.0223 18.8945C27.2069 18.7332 27.4438 18.6443 27.6889 18.6443C27.9341 18.6443 28.171 18.7332 28.3556 18.8945L30.3956 21.0012L37.6889 14.9078C37.7905 14.8203 37.9083 14.7536 38.0356 14.7116C38.163 14.6696 38.2973 14.653 38.431 14.6629C38.5647 14.6729 38.6952 14.709 38.815 14.7693C38.9347 14.8296 39.0414 14.913 39.1289 15.0145C39.2165 15.1161 39.2832 15.2339 39.3252 15.3612C39.3672 15.4885 39.3837 15.6229 39.3738 15.7566C39.3639 15.8903 39.3278 16.0208 39.2675 16.1405C39.2071 16.2603 39.1238 16.367 39.0223 16.4545L31.0223 23.1212C30.8389 23.2852 30.6016 23.3758 30.3556 23.3758C30.1096 23.3758 29.8723 23.2852 29.6889 23.1212L27.6623 21.0012L20.3023 27.1078C20.1203 27.2529 19.895 27.3327 19.6623 27.3345Z" fill="white"></path>
+                    </svg></div>
+                  <div class="w-layout-vflex s-hm5_text-wrap gap-8">
+                    <h3>Deep Dive into Statistics</h3>
+                    <div class="text-md is-dark">Uncover unique insights on matches, clubs, and players, enabling you to dissect the game and make informed decisions. With our comprehensive data, you&#x27;ll have the edge when discussing football with friends or engaging in debates.</div>
+                  </div>
+                </div>
+                <div class="s-hm5_img-wrap"><img src="images/home_bento_img-2.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 434.0625px, 47vw" srcset="images/home_bento_img-2-p-500.webp 500w, images/home_bento_img-2-p-800.webp 800w, images/home_bento_img-2-p-1080.webp 1080w, images/home_bento_img-2.webp 1256w" alt="" class="s-hm5_img"></div>
+              </div>
+              <div id="w-node-_7f64679e-2530-4c63-af57-825a6a842460-0afd0b85" class="w-layout-vflex s-hm5_card">
+                <div class="w-layout-vflex s-hm5_content-wrap gap-24">
+                  <div class="icon-embed-custom w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 58 58" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                      <circle cx="29" cy="29" r="29" fill="#A164CE"></circle>
+                      <g clip-path="url(#clip0_4474_34866)">
+                        <path d="M20.9733 22.8535L15.7969 27.5594L18.1498 35.0888H25.2086L26.6205 27.0888L20.9733 22.8535Z" fill="white"></path>
+                        <path d="M27.5625 42.6175L28.9743 37.9115L36.033 35.5586L39.3271 39.3233L29.9154 44.0292L27.5625 42.6175Z" fill="white"></path>
+                        <path d="M19.5625 16.7354L22.386 19.0883L29.4448 16.2648V12.9707L23.7978 13.9119L19.5625 16.7354Z" fill="white"></path>
+                        <path d="M31.7969 26.1469L32.7381 19.5586H39.3264L42.1499 27.5586L36.9734 30.8527L31.7969 26.1469Z" fill="white"></path>
+                        <path d="M28.4981 43.3966C36.7253 43.3966 43.3947 36.7272 43.3947 28.5001C43.3947 20.2729 36.7253 13.6035 28.4981 13.6035C20.271 13.6035 13.6016 20.2729 13.6016 28.5001C13.6016 36.7272 20.271 43.3966 28.4981 43.3966Z" stroke="white" stroke-width="2.2069"></path>
+                        <path d="M25.2891 27.4681L32.8184 24.6445" stroke="white" stroke-width="2.2069"></path>
+                        <path d="M28.3359 15.0156L34.9242 20.6627" stroke="white" stroke-width="2.2069"></path>
+                        <path d="M37.9917 28.9746L36.1094 37.4452" stroke="white" stroke-width="2.2069"></path>
+                        <path d="M24.1016 33.6035L30.6897 39.2505" stroke="white" stroke-width="2.2069"></path>
+                        <path d="M20.5469 25.4003L22.7233 16.9297" stroke="white" stroke-width="2.2069"></path>
+                        <path d="M16.9522 28.5599L13.1875 25.7363" stroke="white" stroke-width="2.2069"></path>
+                        <path d="M17.1016 38.5026L18.9839 32.8555" stroke="white" stroke-width="2.2069"></path>
+                        <path d="M40.6484 25.9219L43.4721 29.3926" stroke="white" stroke-width="2.2069"></path>
+                        <path d="M38.1719 23.7291L39.113 18.082" stroke="white" stroke-width="2.2069"></path>
+                        <path d="M36.75 39.4619L41.4559 35.6973" stroke="white" stroke-width="2.2069"></path>
+                        <path d="M28.5973 41.8359L23.1719 42.2902" stroke="white" stroke-width="2.2069"></path>
+                      </g>
+                      <defs>
+                        <clippath id="clip0_4474_34866">
+                          <rect width="32" height="32" fill="white" transform="translate(12.5 12.5)"></rect>
+                        </clippath>
+                      </defs>
+                    </svg></div>
+                  <div class="w-layout-vflex s-hm5_text-wrap gap-8">
+                    <h3>Experience the thrill of Player Trading and Reactive Gameplay</h3>
+                    <div class="text-md is-dark">Our app allows you to experience the thrill of player trading, where you strategically buy, sell, and trade football players during live matches but also introduces reactive gameplay. React to goals, assists, penalties, red cards, and other live events that impact player performance, influencing your predictions and trade decisions in real time.</div>
+                  </div>
+                </div>
+                <div class="s-hm5_img-wrap"><img src="images/home_bento_img-3.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 434.04296875px, 47vw" srcset="images/home_bento_img-3-p-500.webp 500w, images/home_bento_img-3-p-800.webp 800w, images/home_bento_img-3-p-1080.webp 1080w, images/home_bento_img-3.webp 1258w" alt="" class="s-hm5_img"></div>
+              </div>
+              <div id="w-node-ba91fe56-2463-ed07-f94b-7f4f2b1e3602-0afd0b85" class="w-layout-vflex s-hm5_card">
+                <div class="w-layout-vflex s-hm5_content-wrap gap-24">
+                  <div class="icon-embed-custom w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 58 58" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                      <circle cx="29" cy="29" r="29" fill="#A164CE"></circle>
+                      <path d="M32.6258 26.1726C32.457 21.3737 25.5428 21.3757 25.375 26.1727C25.5308 30.9656 32.4711 30.9636 32.6258 26.1726Z" fill="white"></path>
+                      <path d="M18.4206 27.5716C18.8146 27.8795 19.2764 28.0888 19.7675 28.1821C20.2587 28.2753 20.7651 28.2499 21.2445 28.1079C21.7239 27.9659 22.1624 27.7114 22.5235 27.3656C22.8846 27.0198 23.1578 26.5927 23.3205 26.1199C23.4831 25.6472 23.5305 25.1424 23.4585 24.6476C23.3866 24.1528 23.1975 23.6824 22.907 23.2755C22.6165 22.8686 22.2329 22.537 21.7883 22.3084C21.3437 22.0797 20.8509 21.9606 20.3509 21.9609C19.7019 21.97 19.0716 22.1792 18.5459 22.5598C18.0202 22.9405 17.6248 23.4741 17.4137 24.0878C17.2026 24.7015 17.186 25.3654 17.3662 25.989C17.5464 26.6125 17.9146 27.1651 18.4206 27.5716Z" fill="white"></path>
+                      <path d="M21.7448 33.5228C21.7543 32.0477 22.7669 30.7816 23.765 29.8223C24.0356 29.5739 24.3248 29.3465 24.6301 29.1423C24.2364 28.704 23.7756 28.331 23.2649 28.0371C22.49 28.809 21.4408 29.2423 20.3471 29.2423C19.2534 29.2423 18.2042 28.8089 17.4293 28.0371C16.0361 28.8763 14.2798 30.7323 15.3091 32.4576C15.5015 32.7834 15.7758 33.0531 16.1048 33.24C16.4338 33.4268 16.8059 33.5243 17.1843 33.5228H21.7448Z" fill="white"></path>
+                      <path d="M34.5 25.1009C34.6371 29.2496 40.6445 29.2479 40.7807 25.1008C40.6315 20.9454 34.6489 20.9457 34.5 25.1009Z" fill="white"></path>
+                      <path d="M32.7563 29.9424C32.5555 29.8066 32.3468 29.683 32.1312 29.5723C31.9859 29.7069 31.8322 29.8321 31.6712 29.9474C30.8065 30.5559 29.7598 30.8505 28.7047 30.7823C27.6496 30.7141 26.6495 30.2871 25.8705 29.5723C24.4161 30.3691 22.8905 31.7713 22.75 33.5227C22.7468 34.1891 23.0083 34.8296 23.4773 35.3032C23.9462 35.7768 24.584 36.0447 25.2505 36.048L32.7513 36.048C33.1829 36.0428 33.6059 35.9268 33.9798 35.7113C34.3537 35.4957 34.6661 35.1877 34.8869 34.8169C35.1077 34.446 35.2296 34.0246 35.2409 33.5932C35.2522 33.1617 35.1526 32.7345 34.9515 32.3526C34.4321 31.3788 33.6775 30.5503 32.7563 29.9424Z" fill="white"></path>
+                      <path d="M42.7354 30.2865C42.2318 29.3505 41.4812 28.5705 40.5652 28.0312C39.7907 28.8053 38.7409 29.2405 37.6459 29.2414C36.551 29.2423 35.5004 28.8089 34.7246 28.0362C34.2159 28.333 33.7556 28.7057 33.3594 29.1414C33.6648 29.3455 33.954 29.5729 34.2245 29.8214C34.9319 30.456 35.5093 31.222 35.9247 32.0767C36.1361 32.5293 36.2469 33.0223 36.2497 33.5219H40.8102C41.1881 33.5172 41.5584 33.4156 41.8857 33.2269C42.213 33.0381 42.4863 32.7684 42.6795 32.4437C42.8728 32.119 42.9794 31.7501 42.9892 31.3724C42.9989 30.9947 42.9116 30.6208 42.7354 30.2865Z" fill="white"></path>
+                      <path d="M41.0674 35.0842C41.0099 35.0524 40.9467 35.0322 40.8815 35.0249C40.8162 35.0175 40.7501 35.0231 40.687 35.0413C40.6239 35.0595 40.565 35.0899 40.5137 35.1309C40.4623 35.1718 40.4196 35.2225 40.3878 35.28C35.553 44.1966 22.4428 44.1943 17.6099 35.2798C17.5781 35.2223 17.5353 35.1717 17.484 35.1307C17.4326 35.0897 17.3737 35.0593 17.3106 35.0411C17.2475 35.0229 17.1814 35.0173 17.1162 35.0246C17.0509 35.032 16.9877 35.0521 16.9302 35.0838C16.8727 35.1156 16.822 35.1584 16.7811 35.2097C16.7401 35.261 16.7097 35.3199 16.6915 35.3831C16.6733 35.4462 16.6677 35.5122 16.675 35.5775C16.6823 35.6428 16.7025 35.706 16.7342 35.7635C21.9401 45.3648 36.0595 45.3625 41.2634 35.7633C41.2952 35.7058 41.3153 35.6427 41.3226 35.5774C41.3299 35.5122 41.3243 35.4462 41.3061 35.3831C41.2879 35.32 41.2575 35.2612 41.2165 35.2099C41.1755 35.1586 41.1249 35.1159 41.0674 35.0842Z" fill="white"></path>
+                      <path d="M19.1398 20.5424C24.1074 14.5294 33.8956 14.53 38.8626 20.5426C38.9496 20.6403 39.0715 20.7 39.2021 20.7089C39.3326 20.7178 39.4615 20.6752 39.561 20.5901C39.6605 20.5051 39.7227 20.3845 39.7343 20.2542C39.7459 20.1238 39.7059 19.9941 39.6229 19.8929C34.2726 13.4156 23.7292 13.4161 18.3794 19.8931C18.2962 19.9943 18.2561 20.1241 18.2676 20.2545C18.2791 20.385 18.3413 20.5058 18.4409 20.5909C18.5405 20.676 18.6696 20.7185 18.8003 20.7095C18.9309 20.7004 19.0529 20.6404 19.1398 20.5424Z" fill="white"></path>
+                      <path d="M35.2394 21.0638C35.3436 21.0619 35.4446 21.0277 35.5286 20.9659C35.6125 20.9041 35.6752 20.8178 35.708 20.7188C35.7408 20.6199 35.742 20.5132 35.7116 20.4135C35.6811 20.3138 35.6204 20.226 35.538 20.1623C33.6439 18.7654 31.3523 18.0117 28.9988 18.0117C26.6454 18.0117 24.3538 18.7654 22.4598 20.1624C22.3562 20.2425 22.2882 20.36 22.2703 20.4898C22.2524 20.6195 22.2862 20.7511 22.3643 20.8562C22.4424 20.9613 22.5586 21.0316 22.6879 21.052C22.8173 21.0724 22.9495 21.0412 23.0561 20.9652C24.7775 19.6959 26.8601 19.0111 28.9989 19.0111C31.1377 19.0111 33.2203 19.6959 34.9417 20.9652C35.0277 21.0293 35.1321 21.0639 35.2394 21.0638Z" fill="white"></path>
+                      <path d="M21.1673 35.2112C21.0839 35.1103 20.9643 35.0461 20.8341 35.0324C20.7039 35.0187 20.5735 35.0565 20.4709 35.1378C20.3683 35.219 20.3016 35.3373 20.2852 35.4671C20.2688 35.597 20.3039 35.7281 20.383 35.8324C24.6022 41.3637 33.4014 41.3632 37.62 35.8322C37.6993 35.728 37.7344 35.5968 37.718 35.4669C37.7016 35.337 37.6349 35.2186 37.5322 35.1374C37.4295 35.0561 37.2991 35.0183 37.1689 35.0321C37.0387 35.0459 36.919 35.1102 36.8357 35.2112C32.9999 40.2406 25.0025 40.24 21.1673 35.2112Z" fill="white"></path>
+                    </svg></div>
+                  <div class="w-layout-vflex s-hm5_text-wrap gap-8">
+                    <h3>Challenge friends and interact with the Community</h3>
+                    <div class="text-md is-dark">Connect with friends and fellow football fans, invite them to play, and challenge each other&#x27;s football knowledge. Engage in lively discussions, share insights, and cheer for your favourite teams together. Our vibrant community fosters a sense of belonging, where the love for football unites everyone under one digital roof.</div>
+                  </div>
+                </div>
+                <div class="s-hm5_img-wrap"><img src="images/home_bento_img-4.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 991px) 434.0625px, 47vw" srcset="images/home_bento_img-4-p-500.webp 500w, images/home_bento_img-4-p-800.webp 800w, images/home_bento_img-4-p-1080.webp 1080w, images/home_bento_img-4.webp 1260w" alt="" class="s-hm5_img"></div>
+              </div>
+            </div>
+            <div data-delay="4000" data-animation="slide" class="s-hm5_slider w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+              <div class="w-slider-mask">
+                <div class="w-slide">
+                  <div id="w-node-c21a4e94-8a5f-012a-3f1b-f3235954d083-0afd0b85" class="w-layout-vflex s-hm5_card">
+                    <div class="w-layout-vflex s-hm5_content-wrap gap-24">
+                      <div class="icon-embed-custom w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 58 58" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                          <circle cx="29" cy="29" r="29" fill="#A164CE"></circle>
+                          <g clip-path="url(#clip0_4474_34836)">
+                            <path d="M17 27H37V25H17V27ZM28 39H35V37H28V39ZM28 35H37V33H28V35ZM28 31H37V29H28V31ZM17 39H26V29H17V39ZM41 23V19H13V41C13 41 13 45 17 45H42C42 45 45 44.938 45 41V23H41ZM17 43C15 43 15 41 15 41V21H39V41C39 41.921 39.284 42.558 39.676 43H17Z" fill="white"></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_4474_34836">
+                              <rect width="32" height="32" fill="white" transform="translate(13 13)"></rect>
+                            </clippath>
+                          </defs>
+                        </svg></div>
+                      <div class="w-layout-vflex s-hm5_text-wrap gap-8">
+                        <h3>Stay informed</h3>
+                        <div class="text-md is-dark">Matchday Pro ensures you never miss a beat in the world of football. Our app curates news and updates from your favourite sources. Get real-time notifications on match previews, team line-ups, transfers, injuries, and all the information you need to stay ahead of the game.</div>
+                      </div>
+                    </div>
+                    <div class="s-hm5_img-wrap"><img src="images/home_bento_img-1.webp" loading="lazy" sizes="100vw" srcset="images/home_bento_img-1-p-500.webp 500w, images/home_bento_img-1-p-800.webp 800w, images/home_bento_img-1-p-1080.webp 1080w, images/home_bento_img-1.webp 1260w" alt="" class="s-hm5_img"></div>
+                  </div>
+                </div>
+                <div class="w-slide">
+                  <div id="w-node-c21a4e94-8a5f-012a-3f1b-f3235954d08d-0afd0b85" class="w-layout-vflex s-hm5_card">
+                    <div class="w-layout-vflex s-hm5_content-wrap gap-24">
+                      <div class="icon-embed-custom w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 58 58" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                          <circle cx="29" cy="29" r="29" fill="#A164CE"></circle>
+                          <path d="M22.3333 32H17C16.4477 32 16 32.4477 16 33V39.6667C16 40.219 16.4477 40.6667 17 40.6667H22.3333C22.8856 40.6667 23.3333 40.219 23.3333 39.6667V33C23.3333 32.4477 22.8856 32 22.3333 32Z" fill="white"></path>
+                          <path d="M31.6615 28H26.3281C25.7758 28 25.3281 28.4477 25.3281 29V39.6667C25.3281 40.219 25.7758 40.6667 26.3281 40.6667H31.6615C32.2137 40.6667 32.6615 40.219 32.6615 39.6667V29C32.6615 28.4477 32.2137 28 31.6615 28Z" fill="white"></path>
+                          <path d="M40.9974 22.668H35.6641C35.1118 22.668 34.6641 23.1157 34.6641 23.668V39.668C34.6641 40.2203 35.1118 40.668 35.6641 40.668H40.9974C41.5497 40.668 41.9974 40.2203 41.9974 39.668V23.668C41.9974 23.1157 41.5497 22.668 40.9974 22.668Z" fill="white"></path>
+                          <path d="M42.3307 43.3359H15.6641C15.3988 43.3359 15.1445 43.2306 14.957 43.043C14.7694 42.8555 14.6641 42.6012 14.6641 42.3359C14.6641 42.0707 14.7694 41.8164 14.957 41.6288C15.1445 41.4413 15.3988 41.3359 15.6641 41.3359H42.3307C42.5959 41.3359 42.8503 41.4413 43.0378 41.6288C43.2254 41.8164 43.3307 42.0707 43.3307 42.3359C43.3307 42.6012 43.2254 42.8555 43.0378 43.043C42.8503 43.2306 42.5959 43.3359 42.3307 43.3359Z" fill="white"></path>
+                          <path d="M38.3281 20.668C38.064 20.6645 37.8116 20.5581 37.6248 20.3713C37.438 20.1845 37.3316 19.9321 37.3281 19.668V16.668H34.3281C34.0629 16.668 33.8086 16.5626 33.621 16.3751C33.4335 16.1875 33.3281 15.9332 33.3281 15.668C33.3281 15.4028 33.4335 15.1484 33.621 14.9609C33.8086 14.7733 34.0629 14.668 34.3281 14.668H38.3281C38.5923 14.6714 38.8446 14.7779 39.0314 14.9647C39.2182 15.1515 39.3247 15.4038 39.3281 15.668V19.668C39.3247 19.9321 39.2182 20.1845 39.0314 20.3713C38.8446 20.5581 38.5923 20.6645 38.3281 20.668Z" fill="white"></path>
+                          <path d="M19.6623 27.3345C19.4556 27.3358 19.2536 27.2729 19.084 27.1546C18.9145 27.0363 18.7858 26.8684 18.7156 26.674C18.6455 26.4796 18.6373 26.2682 18.6922 26.0689C18.7471 25.8696 18.8624 25.6922 19.0223 25.5612L27.0223 18.8945C27.2069 18.7332 27.4438 18.6443 27.6889 18.6443C27.9341 18.6443 28.171 18.7332 28.3556 18.8945L30.3956 21.0012L37.6889 14.9078C37.7905 14.8203 37.9083 14.7536 38.0356 14.7116C38.163 14.6696 38.2973 14.653 38.431 14.6629C38.5647 14.6729 38.6952 14.709 38.815 14.7693C38.9347 14.8296 39.0414 14.913 39.1289 15.0145C39.2165 15.1161 39.2832 15.2339 39.3252 15.3612C39.3672 15.4885 39.3837 15.6229 39.3738 15.7566C39.3639 15.8903 39.3278 16.0208 39.2675 16.1405C39.2071 16.2603 39.1238 16.367 39.0223 16.4545L31.0223 23.1212C30.8389 23.2852 30.6016 23.3758 30.3556 23.3758C30.1096 23.3758 29.8723 23.2852 29.6889 23.1212L27.6623 21.0012L20.3023 27.1078C20.1203 27.2529 19.895 27.3327 19.6623 27.3345Z" fill="white"></path>
+                        </svg></div>
+                      <div class="w-layout-vflex s-hm5_text-wrap gap-8">
+                        <h3>Deep Dive into Statistics</h3>
+                        <div class="text-md is-dark">Uncover unique insights on matches, clubs, and players, enabling you to dissect the game and make informed decisions. With our comprehensive data, you&#x27;ll have the edge when discussing football with friends or engaging in debates.</div>
+                      </div>
+                    </div>
+                    <div class="s-hm5_img-wrap"><img src="images/home_bento_img-2.webp" loading="lazy" sizes="100vw" srcset="images/home_bento_img-2-p-500.webp 500w, images/home_bento_img-2-p-800.webp 800w, images/home_bento_img-2-p-1080.webp 1080w, images/home_bento_img-2.webp 1256w" alt="" class="s-hm5_img"></div>
+                  </div>
+                </div>
+                <div class="w-slide">
+                  <div id="w-node-c21a4e94-8a5f-012a-3f1b-f3235954d097-0afd0b85" class="w-layout-vflex s-hm5_card">
+                    <div class="w-layout-vflex s-hm5_content-wrap gap-24">
+                      <div class="icon-embed-custom w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 58 58" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                          <circle cx="29" cy="29" r="29" fill="#A164CE"></circle>
+                          <g clip-path="url(#clip0_4474_34866)">
+                            <path d="M20.9733 22.8535L15.7969 27.5594L18.1498 35.0888H25.2086L26.6205 27.0888L20.9733 22.8535Z" fill="white"></path>
+                            <path d="M27.5625 42.6175L28.9743 37.9115L36.033 35.5586L39.3271 39.3233L29.9154 44.0292L27.5625 42.6175Z" fill="white"></path>
+                            <path d="M19.5625 16.7354L22.386 19.0883L29.4448 16.2648V12.9707L23.7978 13.9119L19.5625 16.7354Z" fill="white"></path>
+                            <path d="M31.7969 26.1469L32.7381 19.5586H39.3264L42.1499 27.5586L36.9734 30.8527L31.7969 26.1469Z" fill="white"></path>
+                            <path d="M28.4981 43.3966C36.7253 43.3966 43.3947 36.7272 43.3947 28.5001C43.3947 20.2729 36.7253 13.6035 28.4981 13.6035C20.271 13.6035 13.6016 20.2729 13.6016 28.5001C13.6016 36.7272 20.271 43.3966 28.4981 43.3966Z" stroke="white" stroke-width="2.2069"></path>
+                            <path d="M25.2891 27.4681L32.8184 24.6445" stroke="white" stroke-width="2.2069"></path>
+                            <path d="M28.3359 15.0156L34.9242 20.6627" stroke="white" stroke-width="2.2069"></path>
+                            <path d="M37.9917 28.9746L36.1094 37.4452" stroke="white" stroke-width="2.2069"></path>
+                            <path d="M24.1016 33.6035L30.6897 39.2505" stroke="white" stroke-width="2.2069"></path>
+                            <path d="M20.5469 25.4003L22.7233 16.9297" stroke="white" stroke-width="2.2069"></path>
+                            <path d="M16.9522 28.5599L13.1875 25.7363" stroke="white" stroke-width="2.2069"></path>
+                            <path d="M17.1016 38.5026L18.9839 32.8555" stroke="white" stroke-width="2.2069"></path>
+                            <path d="M40.6484 25.9219L43.4721 29.3926" stroke="white" stroke-width="2.2069"></path>
+                            <path d="M38.1719 23.7291L39.113 18.082" stroke="white" stroke-width="2.2069"></path>
+                            <path d="M36.75 39.4619L41.4559 35.6973" stroke="white" stroke-width="2.2069"></path>
+                            <path d="M28.5973 41.8359L23.1719 42.2902" stroke="white" stroke-width="2.2069"></path>
+                          </g>
+                          <defs>
+                            <clippath id="clip0_4474_34866">
+                              <rect width="32" height="32" fill="white" transform="translate(12.5 12.5)"></rect>
+                            </clippath>
+                          </defs>
+                        </svg></div>
+                      <div class="w-layout-vflex s-hm5_text-wrap gap-8">
+                        <h3>Experience the thrill of Player Trading and Reactive Gameplay</h3>
+                        <div class="text-md is-dark">Our app allows you to experience the thrill of player trading, where you strategically buy, sell, and trade football players during live matches but also introduces reactive gameplay. React to goals, assists, penalties, red cards, and other live events that impact player performance, influencing your predictions and trade decisions in real time.</div>
+                      </div>
+                    </div>
+                    <div class="s-hm5_img-wrap"><img src="images/home_bento_img-3.webp" loading="lazy" sizes="100vw" srcset="images/home_bento_img-3-p-500.webp 500w, images/home_bento_img-3-p-800.webp 800w, images/home_bento_img-3-p-1080.webp 1080w, images/home_bento_img-3.webp 1258w" alt="" class="s-hm5_img"></div>
+                  </div>
+                </div>
+                <div class="w-slide">
+                  <div id="w-node-c21a4e94-8a5f-012a-3f1b-f3235954d0a1-0afd0b85" class="w-layout-vflex s-hm5_card">
+                    <div class="w-layout-vflex s-hm5_content-wrap gap-24">
+                      <div class="icon-embed-custom w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 58 58" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                          <circle cx="29" cy="29" r="29" fill="#A164CE"></circle>
+                          <path d="M32.6258 26.1726C32.457 21.3737 25.5428 21.3757 25.375 26.1727C25.5308 30.9656 32.4711 30.9636 32.6258 26.1726Z" fill="white"></path>
+                          <path d="M18.4206 27.5716C18.8146 27.8795 19.2764 28.0888 19.7675 28.1821C20.2587 28.2753 20.7651 28.2499 21.2445 28.1079C21.7239 27.9659 22.1624 27.7114 22.5235 27.3656C22.8846 27.0198 23.1578 26.5927 23.3205 26.1199C23.4831 25.6472 23.5305 25.1424 23.4585 24.6476C23.3866 24.1528 23.1975 23.6824 22.907 23.2755C22.6165 22.8686 22.2329 22.537 21.7883 22.3084C21.3437 22.0797 20.8509 21.9606 20.3509 21.9609C19.7019 21.97 19.0716 22.1792 18.5459 22.5598C18.0202 22.9405 17.6248 23.4741 17.4137 24.0878C17.2026 24.7015 17.186 25.3654 17.3662 25.989C17.5464 26.6125 17.9146 27.1651 18.4206 27.5716Z" fill="white"></path>
+                          <path d="M21.7448 33.5228C21.7543 32.0477 22.7669 30.7816 23.765 29.8223C24.0356 29.5739 24.3248 29.3465 24.6301 29.1423C24.2364 28.704 23.7756 28.331 23.2649 28.0371C22.49 28.809 21.4408 29.2423 20.3471 29.2423C19.2534 29.2423 18.2042 28.8089 17.4293 28.0371C16.0361 28.8763 14.2798 30.7323 15.3091 32.4576C15.5015 32.7834 15.7758 33.0531 16.1048 33.24C16.4338 33.4268 16.8059 33.5243 17.1843 33.5228H21.7448Z" fill="white"></path>
+                          <path d="M34.5 25.1009C34.6371 29.2496 40.6445 29.2479 40.7807 25.1008C40.6315 20.9454 34.6489 20.9457 34.5 25.1009Z" fill="white"></path>
+                          <path d="M32.7563 29.9424C32.5555 29.8066 32.3468 29.683 32.1312 29.5723C31.9859 29.7069 31.8322 29.8321 31.6712 29.9474C30.8065 30.5559 29.7598 30.8505 28.7047 30.7823C27.6496 30.7141 26.6495 30.2871 25.8705 29.5723C24.4161 30.3691 22.8905 31.7713 22.75 33.5227C22.7468 34.1891 23.0083 34.8296 23.4773 35.3032C23.9462 35.7768 24.584 36.0447 25.2505 36.048L32.7513 36.048C33.1829 36.0428 33.6059 35.9268 33.9798 35.7113C34.3537 35.4957 34.6661 35.1877 34.8869 34.8169C35.1077 34.446 35.2296 34.0246 35.2409 33.5932C35.2522 33.1617 35.1526 32.7345 34.9515 32.3526C34.4321 31.3788 33.6775 30.5503 32.7563 29.9424Z" fill="white"></path>
+                          <path d="M42.7354 30.2865C42.2318 29.3505 41.4812 28.5705 40.5652 28.0312C39.7907 28.8053 38.7409 29.2405 37.6459 29.2414C36.551 29.2423 35.5004 28.8089 34.7246 28.0362C34.2159 28.333 33.7556 28.7057 33.3594 29.1414C33.6648 29.3455 33.954 29.5729 34.2245 29.8214C34.9319 30.456 35.5093 31.222 35.9247 32.0767C36.1361 32.5293 36.2469 33.0223 36.2497 33.5219H40.8102C41.1881 33.5172 41.5584 33.4156 41.8857 33.2269C42.213 33.0381 42.4863 32.7684 42.6795 32.4437C42.8728 32.119 42.9794 31.7501 42.9892 31.3724C42.9989 30.9947 42.9116 30.6208 42.7354 30.2865Z" fill="white"></path>
+                          <path d="M41.0674 35.0842C41.0099 35.0524 40.9467 35.0322 40.8815 35.0249C40.8162 35.0175 40.7501 35.0231 40.687 35.0413C40.6239 35.0595 40.565 35.0899 40.5137 35.1309C40.4623 35.1718 40.4196 35.2225 40.3878 35.28C35.553 44.1966 22.4428 44.1943 17.6099 35.2798C17.5781 35.2223 17.5353 35.1717 17.484 35.1307C17.4326 35.0897 17.3737 35.0593 17.3106 35.0411C17.2475 35.0229 17.1814 35.0173 17.1162 35.0246C17.0509 35.032 16.9877 35.0521 16.9302 35.0838C16.8727 35.1156 16.822 35.1584 16.7811 35.2097C16.7401 35.261 16.7097 35.3199 16.6915 35.3831C16.6733 35.4462 16.6677 35.5122 16.675 35.5775C16.6823 35.6428 16.7025 35.706 16.7342 35.7635C21.9401 45.3648 36.0595 45.3625 41.2634 35.7633C41.2952 35.7058 41.3153 35.6427 41.3226 35.5774C41.3299 35.5122 41.3243 35.4462 41.3061 35.3831C41.2879 35.32 41.2575 35.2612 41.2165 35.2099C41.1755 35.1586 41.1249 35.1159 41.0674 35.0842Z" fill="white"></path>
+                          <path d="M19.1398 20.5424C24.1074 14.5294 33.8956 14.53 38.8626 20.5426C38.9496 20.6403 39.0715 20.7 39.2021 20.7089C39.3326 20.7178 39.4615 20.6752 39.561 20.5901C39.6605 20.5051 39.7227 20.3845 39.7343 20.2542C39.7459 20.1238 39.7059 19.9941 39.6229 19.8929C34.2726 13.4156 23.7292 13.4161 18.3794 19.8931C18.2962 19.9943 18.2561 20.1241 18.2676 20.2545C18.2791 20.385 18.3413 20.5058 18.4409 20.5909C18.5405 20.676 18.6696 20.7185 18.8003 20.7095C18.9309 20.7004 19.0529 20.6404 19.1398 20.5424Z" fill="white"></path>
+                          <path d="M35.2394 21.0638C35.3436 21.0619 35.4446 21.0277 35.5286 20.9659C35.6125 20.9041 35.6752 20.8178 35.708 20.7188C35.7408 20.6199 35.742 20.5132 35.7116 20.4135C35.6811 20.3138 35.6204 20.226 35.538 20.1623C33.6439 18.7654 31.3523 18.0117 28.9988 18.0117C26.6454 18.0117 24.3538 18.7654 22.4598 20.1624C22.3562 20.2425 22.2882 20.36 22.2703 20.4898C22.2524 20.6195 22.2862 20.7511 22.3643 20.8562C22.4424 20.9613 22.5586 21.0316 22.6879 21.052C22.8173 21.0724 22.9495 21.0412 23.0561 20.9652C24.7775 19.6959 26.8601 19.0111 28.9989 19.0111C31.1377 19.0111 33.2203 19.6959 34.9417 20.9652C35.0277 21.0293 35.1321 21.0639 35.2394 21.0638Z" fill="white"></path>
+                          <path d="M21.1673 35.2112C21.0839 35.1103 20.9643 35.0461 20.8341 35.0324C20.7039 35.0187 20.5735 35.0565 20.4709 35.1378C20.3683 35.219 20.3016 35.3373 20.2852 35.4671C20.2688 35.597 20.3039 35.7281 20.383 35.8324C24.6022 41.3637 33.4014 41.3632 37.62 35.8322C37.6993 35.728 37.7344 35.5968 37.718 35.4669C37.7016 35.337 37.6349 35.2186 37.5322 35.1374C37.4295 35.0561 37.2991 35.0183 37.1689 35.0321C37.0387 35.0459 36.919 35.1102 36.8357 35.2112C32.9999 40.2406 25.0025 40.24 21.1673 35.2112Z" fill="white"></path>
+                        </svg></div>
+                      <div class="w-layout-vflex s-hm5_text-wrap gap-8">
+                        <h3>Challenge friends and interact with the Community</h3>
+                        <div class="text-md is-dark">Connect with friends and fellow football fans, invite them to play, and challenge each other&#x27;s football knowledge. Engage in lively discussions, share insights, and cheer for your favourite teams together. Our vibrant community fosters a sense of belonging, where the love for football unites everyone under one digital roof.</div>
+                      </div>
+                    </div>
+                    <div class="s-hm5_img-wrap"><img src="images/home_bento_img-4.webp" loading="lazy" sizes="100vw" srcset="images/home_bento_img-4-p-500.webp 500w, images/home_bento_img-4-p-800.webp 800w, images/home_bento_img-4-p-1080.webp 1080w, images/home_bento_img-4.webp 1260w" alt="" class="s-hm5_img"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="s-hm5_left-arrow w-slider-arrow-left">
+                <div class="w-icon-slider-left"></div>
+              </div>
+              <div class="s-hm5_right-arrow w-slider-arrow-right">
+                <div class="w-icon-slider-right"></div>
+              </div>
+              <div class="s-hm5_slide-nav w-slider-nav w-round"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="w-layout-vflex section is-grey">
+        <div class="w-layout-vflex container-lg py-96">
+          <div class="w-layout-vflex s-hm6_inner gap-64">
+            <div class="w-layout-vflex u-text-center">
+              <h2>Embrace a holistic football experience with Matchday Pro</h2>
+            </div>
+            <div class="s-hm6_img-wrap"><img src="images/home_image_img.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 79vw, 81vw" srcset="images/home_image_img-p-500.webp 500w, images/home_image_img-p-800.webp 800w, images/home_image_img-p-1080.webp 1080w, images/home_image_img-p-1600.webp 1600w, images/home_image_img-p-2000.webp 2000w, images/home_image_img-p-2600.webp 2600w, images/home_image_img-p-3200.webp 3200w, images/home_image_img.webp 3894w" alt=""></div>
+            <div class="w-layout-hflex o-download_btn-wrap gap-8">
+              <a href="https://apps.apple.com/nl/app/matchday-pro/id6459884753" class="o-download_btn w-inline-block"><img src="images/home_ios-banner.png" loading="lazy" alt="" class="o-download_btn-img"></a>
+              <a href="https://play.google.com/store/apps/details?id=com.matchdaypro.app" class="o-download_btn w-inline-block"><img src="images/home_playstore-banner.png" loading="lazy" alt="" class="o-download_btn-img"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="w-layout-vflex section">
+        <div class="w-layout-vflex container-lg py-96">
+          <div class="w-layout-vflex s-hm7_inner gap-64">
+            <div class="w-layout-vflex s-hm7_text-wrap gap-16">
+              <div class="s-hm7_img-wrap"><img src="images/home_hero_title-inline-1.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 57.421875px, (max-width: 991px) 7vw, 4vw" srcset="images/home_hero_title-inline-1-p-500.webp 500w, images/home_hero_title-inline-1.webp 556w" alt=""></div>
+              <div class="w-layout-vflex u-text-center">
+                <h2>Working with the most influential ambassadors</h2>
+              </div>
+              <div class="w-layout-vflex u-text-center">
+                <div class="text-md">At Matchday Pro, we&#x27;re proud to be endorsed by some of the most influential and respected figures in the world of football. Our ambassadors not only personify our passion for football, but they also share our vision of enhancing the fan experience. Meet the football veterans who stand with us.</div>
+              </div>
+            </div>
+            <div class="s-hm7_grid">
+              <div id="w-node-_00de3b3f-b9a1-aa64-9e1b-e384d48afa29-0afd0b85" class="s-hm7_card">
+                <div class="w-layout-vflex s-hm7_title-wrap">
+                  <h4>Louis van Gaal</h4>
+                  <div class="w-layout-vflex s-hm7_subtitle">
+                    <div>International Coach</div>
+                  </div>
+                </div>
+                <div class="w-layout-vflex s-hm7_text-box">
+                  <div class="text-sm">As a highly successful international coach, Louis van Gaal needs little introduction. His illustrious career spans across many of the top clubs in Europe, including Ajax, Bayern München, Barcelona, and Manchester United. Van Gaal brings his wealth of football knowledge and strategic insight to the Matchday Pro community.<br></div>
+                </div>
+                <div class="s-hm7_accordion w-embed">
+                  <div class="tab">
+                    <input type="checkbox" name="accordion-1" id="cb1" unchecked="">
+                    <label for="cb1" class="tab_label">Read more</label>
+                    <div class="tab_content text-md">
+                      <p>"Matchday Pro revolutionises the way fans interact with the sport I've devoted my life to. It brings fans, players, and the game closer together in a way I've never seen before."</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-layout-hflex s-hm7_social-row gap-8">
+                  <a href="https://x.com/VanGaalOfficial" class="s-hm7_social-link w-inline-block">
+                    <div class="icon-embed-medium w-embed"><svg width="48" height="48" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" fill="#00000000"></rect>
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" stroke="#00000000" stroke-width="1.5"></rect>
+                        <path d="M29.751 15H32.818L26.118 22.625L34 33H27.828L22.995 26.707L17.464 33H14.394L21.561 24.845L14 15H20.328L24.698 20.752L29.751 15ZM28.675 31.172H30.375L19.404 16.732H17.58L28.675 31.172Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                </div>
+              </div>
+              <div id="w-node-_5b067adc-2f63-1348-ee96-dba4e46e4dc0-0afd0b85" class="s-hm7_card">
+                <div class="w-layout-vflex s-hm7_title-wrap">
+                  <h4>Ronald de Boer</h4>
+                  <div class="w-layout-vflex s-hm7_subtitle">
+                    <div>Former Professional Player<br></div>
+                  </div>
+                </div>
+                <div class="w-layout-vflex s-hm7_text-box">
+                  <div class="text-sm">Known for his dynamic gameplay and sportsmanship, Ronald de Boer has left a permanent mark on football. As a professional player, he represented clubs like Ajax, Glasgow Rangers, and Barcelona, delivering memorable performances at every turn. De Boer joins us at Matchday Pro to share his vast experience and love for the game.<br></div>
+                </div>
+                <div class="s-hm7_accordion w-embed">
+                  <div class="tab">
+                    <input type="checkbox" name="accordion-2" id="cb2" unchecked="">
+                    <label for="cb2" class="tab_label">Read more</label>
+                    <div class="tab_content text-md">
+                      <p>In my playing career, I experienced first-hand the power and passion of fans. Matchday Pro embodies that energy and gives fans a whole new way to experience the matches they love.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-layout-hflex s-hm7_social-row gap-8">
+                  <a href="https://www.facebook.com/RdeBoer1970" class="s-hm7_social-link w-inline-block">
+                    <div class="icon-embed-medium w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 48 48" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" fill="#00000000"></rect>
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" stroke="#00000000" stroke-width="1.5"></rect>
+                        <path d="M26.1986 17.3333H28V14.1439C27.1224 14.048 26.2448 14 25.3672 14C24.0277 14 22.9654 14.3997 22.1801 15.199C21.3641 16.0464 20.9561 17.2134 20.9561 18.7002V21.3141H18V24.8873H20.9561V34H24.5127V24.8873H27.4457L27.8845 21.3141H24.5127V19.06C24.5127 18.4684 24.6128 18.0448 24.8129 17.789C25.0747 17.4852 25.5366 17.3333 26.1986 17.3333Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="https://www.instagram.com/ronald_de_boer_/" class="s-hm7_social-link w-inline-block">
+                    <div class="icon-embed-medium w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 48 48" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" fill="#00000000"></rect>
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" stroke="#00000000" stroke-width="1.5"></rect>
+                        <path d="M29.3477 17.4532C29.012 17.4532 28.7282 17.5691 28.4964 17.801C28.2646 18.0328 28.1487 18.3165 28.1487 18.6523C28.1487 18.988 28.2646 19.2718 28.4964 19.5036C28.7282 19.7354 29.012 19.8513 29.3477 19.8513C29.6835 19.8513 29.9672 19.7354 30.199 19.5036C30.4309 19.2718 30.5468 18.988 30.5468 18.6523C30.5468 18.3165 30.4309 18.0328 30.199 17.801C29.9672 17.5691 29.6835 17.4532 29.3477 17.4532ZM33.9281 19.8753C33.9121 19.044 33.7602 18.2366 33.4724 17.4532C33.2166 16.7818 32.8369 16.1863 32.3333 15.6667C31.8297 15.1471 31.2342 14.7674 30.5468 14.5276C29.7634 14.2398 28.956 14.0879 28.1247 14.0719C27.6131 14.04 27.1335 14.016 26.6859 14H24H21.3381C20.8905 14.016 20.4029 14.04 19.8753 14.0719C19.044 14.0879 18.2366 14.2398 17.4532 14.5276C16.7818 14.7834 16.1863 15.1631 15.6667 15.6667C15.1471 16.1703 14.7674 16.7658 14.5276 17.4532C14.2398 18.2366 14.0879 19.044 14.0719 19.8753C14.04 20.3869 14.016 20.8665 14 21.3141V24V26.6619C14.016 27.1095 14.04 27.5971 14.0719 28.1247C14.0879 28.956 14.2398 29.7634 14.5276 30.5468C14.7674 31.2342 15.1471 31.8297 15.6667 32.3333C16.1863 32.8369 16.7818 33.2166 17.4532 33.4724C18.2366 33.7602 19.044 33.9121 19.8753 33.9281C20.3869 33.96 20.8665 33.984 21.3141 34H24H26.6859C27.1335 33.984 27.6131 33.96 28.1247 33.9281C28.956 33.9121 29.7634 33.7602 30.5468 33.4724C31.2342 33.2326 31.8297 32.8529 32.3333 32.3333C32.8369 31.8137 33.2166 31.2182 33.4724 30.5468C33.7602 29.7634 33.9121 28.956 33.9281 28.1247C33.9281 27.8529 33.9361 27.4852 33.952 27.0216C33.984 26.1103 34 25.1031 34 24V21.3141C33.984 20.8665 33.96 20.3869 33.9281 19.8753ZM32.1295 28.0048C32.1295 28.6443 32.0176 29.2598 31.7938 29.8513C31.6339 30.299 31.3861 30.6867 31.0504 31.0144C30.7146 31.3421 30.3309 31.5859 29.8993 31.7458C29.2918 31.9696 28.6683 32.0815 28.0288 32.0815C27.5492 32.1135 27.0935 32.1375 26.6619 32.1535H24.048H21.4341C20.9864 32.1375 20.5228 32.1135 20.0432 32.0815C19.3717 32.0975 18.7242 32.0016 18.1007 31.7938C17.6851 31.6179 17.3133 31.3701 16.9856 31.0504C16.6579 30.7306 16.4141 30.3469 16.2542 29.8993C16.0144 29.2918 15.8865 28.6603 15.8705 28.0048C15.8705 27.749 15.8625 27.4053 15.8465 26.9736C15.8145 26.0783 15.7986 25.0871 15.7986 24V21.3861C15.8145 20.9384 15.8385 20.4748 15.8705 19.9952C15.8705 19.3397 15.9824 18.7082 16.2062 18.1007C16.3821 17.6691 16.6459 17.3014 16.9976 16.9976C17.3014 16.6459 17.6691 16.3821 18.1007 16.2062C18.7082 15.9824 19.3397 15.8705 19.9952 15.8705C20.251 15.8705 20.5947 15.8625 21.0264 15.8465C21.9217 15.8145 22.9129 15.7986 24 15.7986H26.6139C27.0616 15.8145 27.5252 15.8385 28.0048 15.8705C28.6443 15.8705 29.2598 15.9824 29.8513 16.2062C30.3149 16.3661 30.7146 16.6299 31.0504 16.9976C31.3861 17.3173 31.6339 17.6851 31.7938 18.1007C32.0176 18.7082 32.1295 19.3397 32.1295 19.9952V20.1391C32.1775 21.0504 32.2014 22.3373 32.2014 24C32.2014 25.6627 32.1775 26.9496 32.1295 27.8609V28.0048ZM24 18.8681C23.0727 18.8681 22.2174 19.0999 21.4341 19.5635C20.6507 20.0272 20.0272 20.6507 19.5635 21.4341C19.0999 22.2174 18.8681 23.0727 18.8681 24C18.8681 24.9273 19.0999 25.7826 19.5635 26.5659C20.0272 27.3493 20.6507 27.9728 21.4341 28.4365C22.2174 28.9001 23.0727 29.1319 24 29.1319C24.9273 29.1319 25.7826 28.9001 26.5659 28.4365C27.3493 27.9728 27.9728 27.3493 28.4365 26.5659C28.9001 25.7826 29.1319 24.9273 29.1319 24C29.1319 23.3126 29.004 22.6571 28.7482 22.0336C28.4924 21.4101 28.1207 20.8545 27.6331 20.3669C27.1455 19.8793 26.5899 19.5076 25.9664 19.2518C25.3429 18.996 24.6874 18.8681 24 18.8681ZM24 27.3333C23.3925 27.3333 22.8329 27.1855 22.3213 26.8897C21.8098 26.5939 21.4061 26.1902 21.1103 25.6787C20.8145 25.1671 20.6667 24.6075 20.6667 24C20.6667 23.3925 20.8145 22.8329 21.1103 22.3213C21.4061 21.8098 21.8098 21.4061 22.3213 21.1103C22.8329 20.8145 23.3925 20.6667 24 20.6667C24.6075 20.6667 25.1671 20.8145 25.6787 21.1103C26.1902 21.4061 26.5939 21.8098 26.8897 22.3213C27.1855 22.8329 27.3333 23.3925 27.3333 24C27.3333 24.6075 27.1855 25.1671 26.8897 25.6787C26.5939 26.1902 26.1902 26.5939 25.6787 26.8897C25.1671 27.1855 24.6075 27.3333 24 27.3333Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="https://x.com/RdBoer1970" class="s-hm7_social-link w-inline-block">
+                    <div class="icon-embed-medium w-embed"><svg width="48" height="48" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" fill="#00000000"></rect>
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" stroke="#00000000" stroke-width="1.5"></rect>
+                        <path d="M29.751 15H32.818L26.118 22.625L34 33H27.828L22.995 26.707L17.464 33H14.394L21.561 24.845L14 15H20.328L24.698 20.752L29.751 15ZM28.675 31.172H30.375L19.404 16.732H17.58L28.675 31.172Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                </div>
+              </div>
+              <div id="w-node-b6100ed0-3175-4a9f-2887-7db497691a3a-0afd0b85" class="s-hm7_card">
+                <div class="w-layout-vflex s-hm7_title-wrap">
+                  <h4>Humberto Tan</h4>
+                  <div class="w-layout-vflex s-hm7_subtitle">
+                    <div>Dutch TV Presenter<br></div>
+                  </div>
+                </div>
+                <div class="w-layout-vflex s-hm7_text-box">
+                  <div class="text-sm">A renowned Dutch TV presenter and a passionate football enthusiast, Humberto Tan is the voice that connects us with fans. With his deep understanding of the game and a knack for storytelling, Tan&#x27;s association brings a unique dimension to the Matchday Pro experience.<br></div>
+                </div>
+                <div class="s-hm7_accordion w-embed">
+                  <div class="tab">
+                    <input type="checkbox" name="accordion-3" id="cb3" unchecked="">
+                    <label for="cb3" class="tab_label">Read more</label>
+                    <div class="tab_content text-md">
+                      <p>Matchday Pro is not just an app; it's a community where the heart of football beats. I'm thrilled to be part of this innovative approach to celebrating the sport we all love.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-layout-hflex s-hm7_social-row gap-8">
+                  <a href="https://www.linkedin.com/in/humberto-tan-4b788687/" class="s-hm7_social-link w-inline-block">
+                    <div class="icon-embed-medium w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 48 48" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" fill="#00000000"></rect>
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" stroke="#00000000" stroke-width="1.5"></rect>
+                        <path d="M32.5266 14H15.4734C15.0709 14 14.7246 14.1399 14.4348 14.4197C14.1449 14.6994 14 15.0392 14 15.4388V32.5612C14 32.9608 14.1449 33.3006 14.4348 33.5803C14.7246 33.8601 15.0709 34 15.4734 34H32.5266C32.9291 34 33.2754 33.8601 33.5652 33.5803C33.8551 33.3006 34 32.9608 34 32.5612V15.4388C34 15.0392 33.8551 14.6994 33.5652 14.4197C33.2754 14.1399 32.9291 14 32.5266 14ZM20.0628 30.7386H17.0435V21.7458H20.0628V30.7386ZM18.5652 20.4748C18.1304 20.4748 17.7601 20.3229 17.4541 20.0192C17.1481 19.7154 16.9952 19.3477 16.9952 18.9161C16.9952 18.4844 17.1481 18.1167 17.4541 17.8129C17.7601 17.5092 18.1304 17.3573 18.5652 17.3573C19 17.3573 19.3704 17.5092 19.6763 17.8129C19.9823 18.1167 20.1353 18.4844 20.1353 18.9161C20.1353 19.3477 19.9823 19.7154 19.6763 20.0192C19.3704 20.3229 19 20.4748 18.5652 20.4748ZM30.9565 30.7386H27.9372V25.9185C27.9372 25.279 27.8164 24.7834 27.5749 24.4317C27.3333 24.0799 26.9469 23.9041 26.4155 23.9041C26.0612 23.9041 25.7391 24.004 25.4493 24.2038C25.1594 24.4037 24.9581 24.6715 24.8454 25.0072C24.7649 25.247 24.7327 25.4868 24.7488 25.7266V30.7146H21.7295V21.7218H24.7488V22.9928C25.0225 22.5132 25.405 22.1415 25.8961 21.8777C26.3873 21.6139 26.9147 21.49 27.4783 21.506C28.5411 21.506 29.3784 21.8337 29.9903 22.4892C30.6345 23.2086 30.9565 24.2318 30.9565 25.5588V30.7386Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="https://www.facebook.com/profile.php?id=100044142984118" class="s-hm7_social-link w-inline-block">
+                    <div class="icon-embed-medium w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 48 48" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" fill="#00000000"></rect>
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" stroke="#00000000" stroke-width="1.5"></rect>
+                        <path d="M26.1986 17.3333H28V14.1439C27.1224 14.048 26.2448 14 25.3672 14C24.0277 14 22.9654 14.3997 22.1801 15.199C21.3641 16.0464 20.9561 17.2134 20.9561 18.7002V21.3141H18V24.8873H20.9561V34H24.5127V24.8873H27.4457L27.8845 21.3141H24.5127V19.06C24.5127 18.4684 24.6128 18.0448 24.8129 17.789C25.0747 17.4852 25.5366 17.3333 26.1986 17.3333Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="https://www.instagram.com/humbertotan" class="s-hm7_social-link w-inline-block">
+                    <div class="icon-embed-medium w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 48 48" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" fill="#00000000"></rect>
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" stroke="#00000000" stroke-width="1.5"></rect>
+                        <path d="M29.3477 17.4532C29.012 17.4532 28.7282 17.5691 28.4964 17.801C28.2646 18.0328 28.1487 18.3165 28.1487 18.6523C28.1487 18.988 28.2646 19.2718 28.4964 19.5036C28.7282 19.7354 29.012 19.8513 29.3477 19.8513C29.6835 19.8513 29.9672 19.7354 30.199 19.5036C30.4309 19.2718 30.5468 18.988 30.5468 18.6523C30.5468 18.3165 30.4309 18.0328 30.199 17.801C29.9672 17.5691 29.6835 17.4532 29.3477 17.4532ZM33.9281 19.8753C33.9121 19.044 33.7602 18.2366 33.4724 17.4532C33.2166 16.7818 32.8369 16.1863 32.3333 15.6667C31.8297 15.1471 31.2342 14.7674 30.5468 14.5276C29.7634 14.2398 28.956 14.0879 28.1247 14.0719C27.6131 14.04 27.1335 14.016 26.6859 14H24H21.3381C20.8905 14.016 20.4029 14.04 19.8753 14.0719C19.044 14.0879 18.2366 14.2398 17.4532 14.5276C16.7818 14.7834 16.1863 15.1631 15.6667 15.6667C15.1471 16.1703 14.7674 16.7658 14.5276 17.4532C14.2398 18.2366 14.0879 19.044 14.0719 19.8753C14.04 20.3869 14.016 20.8665 14 21.3141V24V26.6619C14.016 27.1095 14.04 27.5971 14.0719 28.1247C14.0879 28.956 14.2398 29.7634 14.5276 30.5468C14.7674 31.2342 15.1471 31.8297 15.6667 32.3333C16.1863 32.8369 16.7818 33.2166 17.4532 33.4724C18.2366 33.7602 19.044 33.9121 19.8753 33.9281C20.3869 33.96 20.8665 33.984 21.3141 34H24H26.6859C27.1335 33.984 27.6131 33.96 28.1247 33.9281C28.956 33.9121 29.7634 33.7602 30.5468 33.4724C31.2342 33.2326 31.8297 32.8529 32.3333 32.3333C32.8369 31.8137 33.2166 31.2182 33.4724 30.5468C33.7602 29.7634 33.9121 28.956 33.9281 28.1247C33.9281 27.8529 33.9361 27.4852 33.952 27.0216C33.984 26.1103 34 25.1031 34 24V21.3141C33.984 20.8665 33.96 20.3869 33.9281 19.8753ZM32.1295 28.0048C32.1295 28.6443 32.0176 29.2598 31.7938 29.8513C31.6339 30.299 31.3861 30.6867 31.0504 31.0144C30.7146 31.3421 30.3309 31.5859 29.8993 31.7458C29.2918 31.9696 28.6683 32.0815 28.0288 32.0815C27.5492 32.1135 27.0935 32.1375 26.6619 32.1535H24.048H21.4341C20.9864 32.1375 20.5228 32.1135 20.0432 32.0815C19.3717 32.0975 18.7242 32.0016 18.1007 31.7938C17.6851 31.6179 17.3133 31.3701 16.9856 31.0504C16.6579 30.7306 16.4141 30.3469 16.2542 29.8993C16.0144 29.2918 15.8865 28.6603 15.8705 28.0048C15.8705 27.749 15.8625 27.4053 15.8465 26.9736C15.8145 26.0783 15.7986 25.0871 15.7986 24V21.3861C15.8145 20.9384 15.8385 20.4748 15.8705 19.9952C15.8705 19.3397 15.9824 18.7082 16.2062 18.1007C16.3821 17.6691 16.6459 17.3014 16.9976 16.9976C17.3014 16.6459 17.6691 16.3821 18.1007 16.2062C18.7082 15.9824 19.3397 15.8705 19.9952 15.8705C20.251 15.8705 20.5947 15.8625 21.0264 15.8465C21.9217 15.8145 22.9129 15.7986 24 15.7986H26.6139C27.0616 15.8145 27.5252 15.8385 28.0048 15.8705C28.6443 15.8705 29.2598 15.9824 29.8513 16.2062C30.3149 16.3661 30.7146 16.6299 31.0504 16.9976C31.3861 17.3173 31.6339 17.6851 31.7938 18.1007C32.0176 18.7082 32.1295 19.3397 32.1295 19.9952V20.1391C32.1775 21.0504 32.2014 22.3373 32.2014 24C32.2014 25.6627 32.1775 26.9496 32.1295 27.8609V28.0048ZM24 18.8681C23.0727 18.8681 22.2174 19.0999 21.4341 19.5635C20.6507 20.0272 20.0272 20.6507 19.5635 21.4341C19.0999 22.2174 18.8681 23.0727 18.8681 24C18.8681 24.9273 19.0999 25.7826 19.5635 26.5659C20.0272 27.3493 20.6507 27.9728 21.4341 28.4365C22.2174 28.9001 23.0727 29.1319 24 29.1319C24.9273 29.1319 25.7826 28.9001 26.5659 28.4365C27.3493 27.9728 27.9728 27.3493 28.4365 26.5659C28.9001 25.7826 29.1319 24.9273 29.1319 24C29.1319 23.3126 29.004 22.6571 28.7482 22.0336C28.4924 21.4101 28.1207 20.8545 27.6331 20.3669C27.1455 19.8793 26.5899 19.5076 25.9664 19.2518C25.3429 18.996 24.6874 18.8681 24 18.8681ZM24 27.3333C23.3925 27.3333 22.8329 27.1855 22.3213 26.8897C21.8098 26.5939 21.4061 26.1902 21.1103 25.6787C20.8145 25.1671 20.6667 24.6075 20.6667 24C20.6667 23.3925 20.8145 22.8329 21.1103 22.3213C21.4061 21.8098 21.8098 21.4061 22.3213 21.1103C22.8329 20.8145 23.3925 20.6667 24 20.6667C24.6075 20.6667 25.1671 20.8145 25.6787 21.1103C26.1902 21.4061 26.5939 21.8098 26.8897 22.3213C27.1855 22.8329 27.3333 23.3925 27.3333 24C27.3333 24.6075 27.1855 25.1671 26.8897 25.6787C26.5939 26.1902 26.1902 26.5939 25.6787 26.8897C25.1671 27.1855 24.6075 27.3333 24 27.3333Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="https://twitter.com/HumbertoTan" class="s-hm7_social-link w-inline-block">
+                    <div class="icon-embed-medium w-embed"><svg width="48" height="48" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" fill="#00000000"></rect>
+                        <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="8.25" stroke="#00000000" stroke-width="1.5"></rect>
+                        <path d="M29.751 15H32.818L26.118 22.625L34 33H27.828L22.995 26.707L17.464 33H14.394L21.561 24.845L14 15H20.328L24.698 20.752L29.751 15ZM28.675 31.172H30.375L19.404 16.732H17.58L28.675 31.172Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="w-layout-vflex section is-dark">
+        <div class="w-layout-vflex container-lg py-96">
+          <div class="w-layout-vflex s-ptn_inner gap-64">
+            <div class="w-layout-vflex u-text-center">
+              <h2>Official partners</h2>
+            </div>
+            <div class="s-ptn_img-wrap"><img src="images/home_partners-2.png" loading="lazy" alt="" class="s-ptn_img"><img src="images/home_partners-1.png" loading="lazy" alt="" class="s-ptn_img"></div>
+            <div class="w-layout-vflex s-ptn_text-wrap gap-24">
+              <div class="w-layout-vflex u-text-center">
+                <div>Together, let&#x27;s champion the cause of universal access to sports and the positive change it can bring about.</div>
+              </div>
+              <div class="w-layout-hflex l-btn-wrap">
+                <a href="partnerships.html" class="c-button cc-sec w-inline-block">
+                  <div class="c-button_label">Learn more</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="w-layout-vflex section">
+        <div class="w-layout-vflex container-lg py-160">
+          <div class="w-layout-vflex s-cta_inner gap-64">
+            <div class="w-layout-vflex s-cta_img-wrap"><img src="images/home_cta_img-1.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 29vw, (max-width: 991px) 46vw, 48vw" srcset="images/home_cta_img-1-p-500.webp 500w, images/home_cta_img-1-p-800.webp 800w, images/home_cta_img-1-p-1080.webp 1080w, images/home_cta_img-1.webp 1543w" alt=""></div>
+            <div class="w-layout-vflex s-cta_content-wrap gap-32">
+              <div class="w-layout-vflex s-cta_text-wrap gap-16">
+                <div class="w-layout-vflex u-text-center">
+                  <h2>Unlock a new era of football engagement</h2>
+                </div>
+                <div class="w-layout-vflex u-text-center">
+                  <div class="text-md">Our app combines the thrill of live matches, news updates, statistical analysis, social interaction, player trading, and reactive gameplay all in one place.<br><br>It&#x27;s time to show off your football knowledge, engage with the global football community, and prove once and for all that you are the ultimate football expert.</div>
+                </div>
+              </div>
+              <div class="w-layout-hflex o-download_btn-wrap gap-8">
+                <a href="https://apps.apple.com/nl/app/matchday-pro/id6459884753" class="o-download_btn w-inline-block"><img src="images/home_ios-banner.png" loading="lazy" alt="" class="o-download_btn-img"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.matchdaypro.app" class="o-download_btn w-inline-block"><img src="images/home_playstore-banner.png" loading="lazy" alt="" class="o-download_btn-img"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="c-footer">
+      <div class="w-layout-vflex container-xl py-96">
+        <div class="w-layout-vflex c-footer_inner gap-64">
+          <div class="c-footer_row gap-64">
+            <div class="w-layout-vflex u-text-center">
+              <h2>LET THE GAMES BEGIN</h2>
+            </div>
+            <div class="w-layout-vflex c-footer_img-grid">
+              <div id="w-node-b4829681-050f-a83e-8401-9f6cac788122-0afd0b85" class="w-layout-vflex c-footer_img-wrap is-left"><img src="images/footer_img-2.webp" loading="lazy" id="w-node-_2b56c00a-7be8-b13f-1f6a-592a11b83548-0afd0b85" sizes="(max-width: 479px) 98.22265625px, (max-width: 767px) 163.7109375px, (max-width: 991px) 39vw, 384.70703125px" alt="" srcset="images/footer_img-2-p-500.webp 500w, images/footer_img-2-p-800.webp 800w, images/footer_img-2-p-1080.webp 1080w, images/footer_img-2.webp 1164w" class="c-footer_img"></div>
+              <div id="w-node-a717c6b2-487d-8caf-a201-c6cdb1ab220e-0afd0b85" class="c-footer_img-wrap"><img src="images/footer_img-3.webp" loading="lazy" id="w-node-_36185fd6-d46f-6984-dcd7-68f7353b1bfc-0afd0b85" sizes="(max-width: 479px) 98.22265625px, (max-width: 767px) 163.7109375px, (max-width: 991px) 39vw, 384.70703125px" alt="" srcset="images/footer_img-3-p-500.webp 500w, images/footer_img-3-p-800.webp 800w, images/footer_img-3-p-1080.webp 1080w, images/footer_img-3.webp 1164w" class="c-footer_img"></div>
+              <div id="w-node-_73f3b9fc-c14d-a400-83bd-41bcd044595f-0afd0b85" class="c-footer_img-wrap is-right"><img src="images/footer_img-1.webp" loading="lazy" id="w-node-d12bc934-2b89-74f5-fdac-c48e623ae107-0afd0b85" sizes="(max-width: 479px) 98.22265625px, (max-width: 767px) 163.7109375px, (max-width: 991px) 39vw, 384.70703125px" alt="" srcset="images/footer_img-1-p-500.webp 500w, images/footer_img-1-p-800.webp 800w, images/footer_img-1-p-1080.webp 1080w, images/footer_img-1.webp 1164w" class="c-footer_img"></div>
+            </div>
+          </div>
+          <div class="c-footer_row gap-64">
+            <div class="c-footer_grid">
+              <div class="w-layout-vflex c-footer_logo-block gap-16">
+                <div class="w-layout-vflex c-footer_logo"><img src="images/Navbar-Logo.png" loading="lazy" alt=""></div>
+                <div class="text-sm">Download Matchday Pro now and unlock a new era of football engagement.</div>
+              </div>
+              <div class="w-layout-hflex c-footer_link-block">
+                <div class="w-layout-vflex c-footer_link-wrap gap-16">
+                  <div class="w-layout-vflex u-text-mint">
+                    <div>Legal &amp; Info</div>
+                  </div>
+                  <ul role="list" class="c-footer_list gap-8 w-list-unstyled">
+                    <li>
+                      <a href="#">Terms &amp; Conditions</a>
+                    </li>
+                    <li>
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="#">Contest Rules</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="w-layout-vflex c-footer_link-wrap gap-16">
+                  <div class="w-layout-vflex u-text-mint">
+                    <div>Contact</div>
+                  </div>
+                  <ul role="list" class="c-footer_list gap-8 w-list-unstyled">
+                    <li>
+                      <a href="mailto:support@matchday.pro?subject=General%20Enquiry" class="c-footer_link"><span class="text-md is-dark">Email</span> support@matchday.pro</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="w-layout-vflex c-footer_link-wrap gap-16">
+                  <div class="w-layout-vflex u-text-mint">
+                    <div>Legal &amp; Info</div>
+                  </div>
+                  <div class="w-layout-hflex c-footer_social-wrap gap-8">
+                    <a href="https://www.linkedin.com/company/matchdaypro" class="w-inline-block">
+                      <div class="c-footer_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 32 32" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                          <path d="M21.5423 9.5H10.4577C10.1961 9.5 9.97101 9.59093 9.78261 9.77278C9.5942 9.95464 9.5 10.1755 9.5 10.4353V21.5647C9.5 21.8245 9.5942 22.0454 9.78261 22.2272C9.97101 22.4091 10.1961 22.5 10.4577 22.5H21.5423C21.8039 22.5 22.029 22.4091 22.2174 22.2272C22.4058 22.0454 22.5 21.8245 22.5 21.5647V10.4353C22.5 10.1755 22.4058 9.95464 22.2174 9.77278C22.029 9.59093 21.8039 9.5 21.5423 9.5ZM13.4408 20.3801H11.4783V14.5348H13.4408V20.3801ZM12.4674 13.7086C12.1848 13.7086 11.944 13.6099 11.7452 13.4125C11.5463 13.215 11.4469 12.976 11.4469 12.6954C11.4469 12.4149 11.5463 12.1759 11.7452 11.9784C11.944 11.781 12.1848 11.6823 12.4674 11.6823C12.75 11.6823 12.9907 11.781 13.1896 11.9784C13.3885 12.1759 13.4879 12.4149 13.4879 12.6954C13.4879 12.976 13.3885 13.215 13.1896 13.4125C12.9907 13.6099 12.75 13.7086 12.4674 13.7086ZM20.5217 20.3801H18.5592V17.247C18.5592 16.8313 18.4807 16.5092 18.3237 16.2806C18.1667 16.052 17.9155 15.9376 17.57 15.9376C17.3398 15.9376 17.1304 16.0026 16.942 16.1325C16.7536 16.2624 16.6228 16.4365 16.5495 16.6547C16.4972 16.8106 16.4762 16.9664 16.4867 17.1223V20.3645H14.5242V14.5192H16.4867V15.3453C16.6647 15.0336 16.9132 14.792 17.2325 14.6205C17.5517 14.449 17.8945 14.3685 18.2609 14.3789C18.9517 14.3789 19.496 14.5919 19.8937 15.018C20.3124 15.4856 20.5217 16.1507 20.5217 17.0132V20.3801Z" fill="currentColor"></path>
+                        </svg></div>
+                    </a>
+                    <a href="https://www.facebook.com/MatchdayPro/" class="w-inline-block">
+                      <div class="c-footer_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 32 32" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                          <path d="M18.239 11.6667H19.5V9.59353C18.8857 9.53117 18.2714 9.5 17.657 9.5C16.7194 9.5 15.9758 9.75979 15.4261 10.2794C14.8549 10.8301 14.5693 11.5887 14.5693 12.5552V14.2542H12.5V16.5767H14.5693V22.5H17.0589V16.5767H19.112L19.4192 14.2542H17.0589V12.789C17.0589 12.4045 17.1289 12.1291 17.2691 11.9628C17.4523 11.7654 17.7756 11.6667 18.239 11.6667Z" fill="currentColor"></path>
+                        </svg></div>
+                    </a>
+                    <a href="https://www.instagram.com/matchday.pro/" class="w-inline-block">
+                      <div class="c-footer_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 32 33" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                          <path d="M19.476 12.2446C19.2578 12.2446 19.0733 12.3199 18.9227 12.4706C18.772 12.6213 18.6966 12.8058 18.6966 13.024C18.6966 13.2422 18.772 13.4267 18.9227 13.5773C19.0733 13.728 19.2578 13.8034 19.476 13.8034C19.6942 13.8034 19.8787 13.728 20.0294 13.5773C20.1801 13.4267 20.2554 13.2422 20.2554 13.024C20.2554 12.8058 20.1801 12.6213 20.0294 12.4706C19.8787 12.3199 19.6942 12.2446 19.476 12.2446ZM22.4532 13.8189C22.4428 13.2786 22.3441 12.7538 22.1571 12.2446C21.9908 11.8082 21.744 11.4211 21.4167 11.0833C21.0893 10.7456 20.7022 10.4988 20.2554 10.3429C19.7462 10.1559 19.2214 10.0572 18.6811 10.0468C18.3485 10.026 18.0368 10.0104 17.7458 10H16H14.2698C13.9788 10.0104 13.6619 10.026 13.3189 10.0468C12.7786 10.0572 12.2538 10.1559 11.7446 10.3429C11.3082 10.5092 10.9211 10.756 10.5833 11.0833C10.2456 11.4107 9.9988 11.7978 9.84293 12.2446C9.65588 12.7538 9.55715 13.2786 9.54676 13.8189C9.52598 14.1515 9.51039 14.4632 9.5 14.7542V16.5V18.2302C9.51039 18.5212 9.52598 18.8381 9.54676 19.1811C9.55715 19.7214 9.65588 20.2462 9.84293 20.7554C9.9988 21.2022 10.2456 21.5893 10.5833 21.9167C10.9211 22.244 11.3082 22.4908 11.7446 22.6571C12.2538 22.8441 12.7786 22.9428 13.3189 22.9532C13.6515 22.974 13.9632 22.9896 14.2542 23H16H17.7458C18.0368 22.9896 18.3485 22.974 18.6811 22.9532C19.2214 22.9428 19.7462 22.8441 20.2554 22.6571C20.7022 22.5012 21.0893 22.2544 21.4167 21.9167C21.744 21.5789 21.9908 21.1918 22.1571 20.7554C22.3441 20.2462 22.4428 19.7214 22.4532 19.1811C22.4532 19.0044 22.4584 18.7654 22.4688 18.464C22.4896 17.8717 22.5 17.217 22.5 16.5V14.7542C22.4896 14.4632 22.474 14.1515 22.4532 13.8189ZM21.2842 19.1031C21.2842 19.5188 21.2114 19.9189 21.0659 20.3034C20.962 20.5943 20.801 20.8463 20.5827 21.0594C20.3645 21.2724 20.1151 21.4309 19.8345 21.5348C19.4396 21.6803 19.0344 21.753 18.6187 21.753C18.307 21.7738 18.0108 21.7894 17.7302 21.7998H16.0312H14.3321C14.0412 21.7894 13.7398 21.7738 13.4281 21.753C12.9916 21.7634 12.5707 21.701 12.1655 21.5659C11.8953 21.4516 11.6537 21.2906 11.4406 21.0827C11.2276 20.8749 11.0691 20.6255 10.9652 20.3345C10.8094 19.9396 10.7262 19.5292 10.7158 19.1031C10.7158 18.9369 10.7106 18.7134 10.7002 18.4329C10.6795 17.8509 10.6691 17.2066 10.6691 16.5V14.801C10.6795 14.51 10.695 14.2086 10.7158 13.8969C10.7158 13.4708 10.7886 13.0604 10.9341 12.6655C11.0484 12.3849 11.2198 12.1459 11.4484 11.9484C11.6459 11.7198 11.8849 11.5484 12.1655 11.4341C12.5604 11.2886 12.9708 11.2158 13.3969 11.2158C13.5631 11.2158 13.7866 11.2106 14.0671 11.2002C14.6491 11.1795 15.2934 11.1691 16 11.1691H17.699C17.99 11.1795 18.2914 11.195 18.6031 11.2158C19.0188 11.2158 19.4189 11.2886 19.8034 11.4341C20.1047 11.538 20.3645 11.7094 20.5827 11.9484C20.801 12.1563 20.962 12.3953 21.0659 12.6655C21.2114 13.0604 21.2842 13.4708 21.2842 13.8969V13.9904C21.3153 14.5827 21.3309 15.4193 21.3309 16.5C21.3309 17.5807 21.3153 18.4173 21.2842 19.0096V19.1031ZM16 13.1643C15.3973 13.1643 14.8413 13.3149 14.3321 13.6163C13.8229 13.9177 13.4177 14.3229 13.1163 14.8321C12.8149 15.3413 12.6643 15.8973 12.6643 16.5C12.6643 17.1027 12.8149 17.6587 13.1163 18.1679C13.4177 18.6771 13.8229 19.0823 14.3321 19.3837C14.8413 19.6851 15.3973 19.8357 16 19.8357C16.6027 19.8357 17.1587 19.6851 17.6679 19.3837C18.1771 19.0823 18.5823 18.6771 18.8837 18.1679C19.1851 17.6587 19.3357 17.1027 19.3357 16.5C19.3357 16.0532 19.2526 15.6271 19.0863 15.2218C18.9201 14.8165 18.6785 14.4554 18.3615 14.1385C18.0446 13.8215 17.6835 13.5799 17.2782 13.4137C16.8729 13.2474 16.4468 13.1643 16 13.1643ZM16 18.6667C15.6051 18.6667 15.2414 18.5705 14.9089 18.3783C14.5763 18.1861 14.3139 17.9237 14.1217 17.5911C13.9295 17.2586 13.8333 16.8949 13.8333 16.5C13.8333 16.1051 13.9295 15.7414 14.1217 15.4089C14.3139 15.0763 14.5763 14.8139 14.9089 14.6217C15.2414 14.4295 15.6051 14.3333 16 14.3333C16.3949 14.3333 16.7586 14.4295 17.0911 14.6217C17.4237 14.8139 17.6861 15.0763 17.8783 15.4089C18.0705 15.7414 18.1667 16.1051 18.1667 16.5C18.1667 16.8949 18.0705 17.2586 17.8783 17.5911C17.6861 17.9237 17.4237 18.1861 17.0911 18.3783C16.7586 18.5705 16.3949 18.6667 16 18.6667Z" fill="currentColor"></path>
+                        </svg></div>
+                    </a>
+                    <a href="https://twitter.com/matchdaypro1" class="w-inline-block">
+                      <div class="c-footer_icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 32 32" fill="none" preserveaspectratio="xMidYMid meet" aria-hidden="true" role="img">
+                          <path d="M22.5 11.8374C22.0012 12.0532 21.4868 12.1934 20.9568 12.2582C21.2374 12.0855 21.479 11.8697 21.6817 11.6108C21.8843 11.3518 22.0376 11.0605 22.1415 10.7368C21.6115 11.0605 21.0452 11.2817 20.4424 11.4004C20.0268 10.9364 19.5202 10.6505 18.9227 10.5426C18.3251 10.4347 17.7588 10.5318 17.2236 10.8339C16.6884 11.136 16.2962 11.573 16.0468 12.1449C15.7974 12.7167 15.7454 13.3102 15.8909 13.9252C14.8205 13.8712 13.8074 13.5907 12.8513 13.0836C11.8953 12.5765 11.0795 11.8913 10.4041 11.0281C10.1651 11.4597 10.0456 11.9291 10.0456 12.4362C10.0456 12.9001 10.1495 13.3344 10.3573 13.7391C10.5651 14.1437 10.8561 14.4755 11.2302 14.7344C10.8042 14.7236 10.4041 14.6103 10.03 14.3945V14.4269C10.03 14.8585 10.1235 15.2631 10.3106 15.6407C10.4976 16.0184 10.7522 16.3367 11.0743 16.5956C11.3965 16.8546 11.7602 17.0272 12.1655 17.1135C11.9369 17.1891 11.6978 17.2268 11.4484 17.2268C11.2822 17.2268 11.1159 17.2106 10.9496 17.1783C11.1263 17.7393 11.4432 18.1979 11.9005 18.554C12.3577 18.91 12.8721 19.0935 13.4436 19.1042C12.976 19.4819 12.459 19.7732 11.8927 19.9782C11.3263 20.1832 10.747 20.2857 10.1547 20.2857C9.93645 20.2857 9.71823 20.2749 9.5 20.2534C10.1131 20.6634 10.7652 20.9736 11.4562 21.184C12.1473 21.3944 12.8565 21.4996 13.5839 21.4996C14.5919 21.5104 15.5635 21.3188 16.4988 20.925C17.4341 20.5312 18.2602 19.962 18.9772 19.2175C19.6942 18.473 20.245 17.6153 20.6295 16.6442C21.014 15.6731 21.201 14.6643 21.1906 13.6177V13.2616C21.7102 12.8624 22.1467 12.3876 22.5 11.8374Z" fill="currentColor"></path>
+                        </svg></div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=669f9140248f05280afd0b78" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-3175SG4C87"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3175SG4C87');
+</script>
+</body>
+</html>
